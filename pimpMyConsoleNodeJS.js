@@ -1,7 +1,8 @@
-//pimp.red('Hello World', 'green', 'bright'); 
+//pimp.red('Hello World', 'bggreen', 'bright'); 
 var color = require('./color');
 
-//'Hello World'.redLog('green', 'bright'); 
+
+//'Hello World'.redLog('bggreen', 'bright'); 
 function colorLogPrototype() {
     var colorLogPrototype = require('./colorLogPrototype');
 }
@@ -11,7 +12,7 @@ function colorPrototypeProperties() {
     var colorPrototypeProperties = require('./colorPrototypeProperties');
 }
 
-//console.log('Hello World'.red('green', 'bright ));
+//console.log('Hello World'.red('bggreen', 'bright' ));
 function colorPrototype() {
     var colorPrototype = require('./ColorPrototype');
 }
@@ -28,6 +29,8 @@ exports.yellow = color.yellow;
 exports.blue = color.blue;
 exports.magenta = color.magenta;
 exports.white = color.white;
+exports.grey = color.grey;
+exports.all = color.all;
 exports.reset = reset;
 exports.colorLogPrototype = colorLogPrototype;
 exports.colorPrototypeProperties = colorPrototypeProperties;

@@ -1,6 +1,3 @@
-var colorBackground = require('./colorBackground').background;
-var style = require('./styles').styles;
-
 Object.defineProperty(Object.prototype, "black", {
    get: function () {
         var message = this;
