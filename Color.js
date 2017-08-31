@@ -1,5 +1,5 @@
-var colorBackground = require('./ColorBackground').background;
-var style = require('./Styles').styles;
+var colorBackground = require('./colorBackground').background;
+var style = require('./styles').styles;
 
 function cyan(message, background = 0, form = 0) {
     if (background) {
